@@ -1,0 +1,232 @@
+%MSG-i MF_INIT_OK:  Early 23-Jan-2026 14:45:42 CST JobSetup
+Messagelogger initialization complete.
+%MSG
+%MSG-i PathConfiguration:  Early 23-Jan-2026 14:45:45 CST JobSetup
+Multiple end paths have been combined into one end path,
+"end_path" since order is irrelevant.
+%MSG
+%MSG-i AuxDetGeometryCore:  Early 23-Jan-2026 14:45:49 CST JobSetup
+New detector geometry loaded from
+	/exp/sbnd/data/users/castalyf/larsoft_v10_06/larsoft/localProducts_larsoft_v10_06_00_02_e26_prof/sbndcode/v10_06_03/gdml/sbnd_v02_05.gdml
+%MSG
+%MSG-i GeometryCore:  Early 23-Jan-2026 14:45:49 CST JobSetup
+Sorting volumes...
+%MSG
+%MSG-i GeometryCore:  Early 23-Jan-2026 14:45:49 CST JobSetup
+New detector geometry loaded from
+	/exp/sbnd/data/users/castalyf/larsoft_v10_06/larsoft/localProducts_larsoft_v10_06_00_02_e26_prof/sbndcode/v10_06_03/gdml/sbnd_v02_05.gdml
+%MSG
+%MSG-i WireReadoutStandardGeom:  Early 23-Jan-2026 14:45:49 CST JobSetup
+Initializing standard wire-readout geometry...
+%MSG
+%MSG-i StandardWireReadout:  Early 23-Jan-2026 14:45:49 CST JobSetup
+Loading wire readout: WireReadoutStandardGeom
+%MSG
+%MSG-i SimpleChannelStatusService:  Early 23-Jan-2026 14:45:49 CST JobSetup
+Loaded from configuration:
+  - 89 bad channels
+  - 3 noisy channels
+  - largest channel ID: 11275, largest present: 11275
+%MSG
+%MSG-i setupProvider<DetectorPropertiesStandard>:  Early  23-Jan-2026 14:45:49 CST JobSetup
+Asked to ignore 1 keys: 'InheritNumberTimeSamples'
+%MSG
+23-Jan-2026 14:45:54 CST  Initiating request to open input file "/pnfs/sbnd/archive/sbn/sbn_nd/data/raw/unknown/v1_10_08/sbnd_daq_v1_10_08/daq/00/01/94/06/32/fa/data_EventBuilder6_art1_run19406_1_20250924T161002.root"
+23-Jan-2026 14:45:54 CST  Opened input file "/pnfs/sbnd/archive/sbn/sbn_nd/data/raw/unknown/v1_10_08/sbnd_daq_v1_10_08/daq/00/01/94/06/32/fa/data_EventBuilder6_art1_run19406_1_20250924T161002.root"
+Begin processing the 1st record. run: 19406 subRun: 1 event: 13 at 23-Jan-2026 14:45:54 CST
+%MSG-i DetPedestalRetrievalAlg:  ProcessEvent 23-Jan-2026 14:45:54 CST  run: 19406 subRun: 1 event: 13
+DetPedestalRetrievalAlg::UpdateTimeStamp called.
+%MSG
+%MSG-w SBNDTPCDecoder_module:  SBNDTPCDecoder:daq@BeginModule  23-Jan-2026 14:45:54 CST run: 19406 subRun: 1 event: 13
+ Invalid fragment handle: Skipping TPC digit decoding
+%MSG
+23-Jan-2026 14:45:54 CST  Opened output file with pattern "%ifb_decoded-filtered.root"
+%MSG-w FastCloning:  PostProcessEvent 23-Jan-2026 14:45:55 CST  run: 19406 subRun: 1 event: 13
+Fast cloning has been deactivated for the following reasons:
+ - Event-selection has been specified in the RootOutput configuration.
+%MSG
+23-Jan-2026 14:45:55 CST  Opened output file with pattern "%ifb_decoded-choppy.root"
+%MSG-w FastCloning:  PostProcessEvent 23-Jan-2026 14:45:55 CST  run: 19406 subRun: 1 event: 13
+Fast cloning has been deactivated for the following reasons:
+ - Event-selection has been specified in the RootOutput configuration.
+%MSG
+Begin processing the 2nd record. run: 19406 subRun: 1 event: 19 at 23-Jan-2026 14:45:55 CST
+%MSG-i DetPedestalRetrievalAlg:  ProcessEvent 23-Jan-2026 14:45:55 CST  run: 19406 subRun: 1 event: 19
+DetPedestalRetrievalAlg::UpdateTimeStamp called.
+%MSG
+%MSG-w SBNDTPCDecoder_module:  SBNDTPCDecoder:daq@BeginModule  23-Jan-2026 14:45:55 CST run: 19406 subRun: 1 event: 19
+ Invalid fragment handle: Skipping TPC digit decoding
+%MSG
+Begin processing the 3rd record. run: 19406 subRun: 1 event: 25 at 23-Jan-2026 14:45:55 CST
+%MSG-i DetPedestalRetrievalAlg:  ProcessEvent 23-Jan-2026 14:45:55 CST  run: 19406 subRun: 1 event: 25
+DetPedestalRetrievalAlg::UpdateTimeStamp called.
+%MSG
+%MSG-w SBNDTPCDecoder_module:  SBNDTPCDecoder:daq@BeginModule  23-Jan-2026 14:45:55 CST run: 19406 subRun: 1 event: 25
+ Invalid fragment handle: Skipping TPC digit decoding
+%MSG
+Begin processing the 4th record. run: 19406 subRun: 1 event: 31 at 23-Jan-2026 14:45:55 CST
+%MSG-i DetPedestalRetrievalAlg:  ProcessEvent 23-Jan-2026 14:45:55 CST  run: 19406 subRun: 1 event: 31
+DetPedestalRetrievalAlg::UpdateTimeStamp called.
+%MSG
+%MSG-w SBNDTPCDecoder_module:  SBNDTPCDecoder:daq@BeginModule  23-Jan-2026 14:45:55 CST run: 19406 subRun: 1 event: 31
+ Invalid fragment handle: Skipping TPC digit decoding
+%MSG
+Begin processing the 5th record. run: 19406 subRun: 1 event: 37 at 23-Jan-2026 14:45:55 CST
+%MSG-i DetPedestalRetrievalAlg:  ProcessEvent 23-Jan-2026 14:45:55 CST  run: 19406 subRun: 1 event: 37
+DetPedestalRetrievalAlg::UpdateTimeStamp called.
+%MSG
+%MSG-w SBNDTPCDecoder_module:  SBNDTPCDecoder:daq@BeginModule  23-Jan-2026 14:45:55 CST run: 19406 subRun: 1 event: 37
+ Invalid fragment handle: Skipping TPC digit decoding
+%MSG
+Begin processing the 6th record. run: 19406 subRun: 1 event: 43 at 23-Jan-2026 14:45:55 CST
+%MSG-i DetPedestalRetrievalAlg:  ProcessEvent 23-Jan-2026 14:45:55 CST  run: 19406 subRun: 1 event: 43
+DetPedestalRetrievalAlg::UpdateTimeStamp called.
+%MSG
+%MSG-w SBNDTPCDecoder_module:  SBNDTPCDecoder:daq@BeginModule  23-Jan-2026 14:45:55 CST run: 19406 subRun: 1 event: 43
+ Invalid fragment handle: Skipping TPC digit decoding
+%MSG
+Begin processing the 7th record. run: 19406 subRun: 1 event: 49 at 23-Jan-2026 14:45:55 CST
+%MSG-i DetPedestalRetrievalAlg:  ProcessEvent 23-Jan-2026 14:45:55 CST  run: 19406 subRun: 1 event: 49
+DetPedestalRetrievalAlg::UpdateTimeStamp called.
+%MSG
+%MSG-w SBNDTPCDecoder_module:  SBNDTPCDecoder:daq@BeginModule  23-Jan-2026 14:45:55 CST run: 19406 subRun: 1 event: 49
+ Invalid fragment handle: Skipping TPC digit decoding
+%MSG
+Begin processing the 8th record. run: 19406 subRun: 1 event: 55 at 23-Jan-2026 14:45:56 CST
+%MSG-i DetPedestalRetrievalAlg:  ProcessEvent 23-Jan-2026 14:45:56 CST  run: 19406 subRun: 1 event: 55
+DetPedestalRetrievalAlg::UpdateTimeStamp called.
+%MSG
+%MSG-w SBNDTPCDecoder_module:  SBNDTPCDecoder:daq@BeginModule  23-Jan-2026 14:45:56 CST run: 19406 subRun: 1 event: 55
+ Invalid fragment handle: Skipping TPC digit decoding
+%MSG
+Begin processing the 9th record. run: 19406 subRun: 1 event: 61 at 23-Jan-2026 14:45:56 CST
+%MSG-i DetPedestalRetrievalAlg:  ProcessEvent 23-Jan-2026 14:45:56 CST  run: 19406 subRun: 1 event: 61
+DetPedestalRetrievalAlg::UpdateTimeStamp called.
+%MSG
+%MSG-w SBNDTPCDecoder_module:  SBNDTPCDecoder:daq@BeginModule  23-Jan-2026 14:45:56 CST run: 19406 subRun: 1 event: 61
+ Invalid fragment handle: Skipping TPC digit decoding
+%MSG
+Begin processing the 10th record. run: 19406 subRun: 1 event: 67 at 23-Jan-2026 14:45:56 CST
+%MSG-i DetPedestalRetrievalAlg:  ProcessEvent 23-Jan-2026 14:45:56 CST  run: 19406 subRun: 1 event: 67
+DetPedestalRetrievalAlg::UpdateTimeStamp called.
+%MSG
+%MSG-w SBNDTPCDecoder_module:  SBNDTPCDecoder:daq@BeginModule  23-Jan-2026 14:45:56 CST run: 19406 subRun: 1 event: 67
+ Invalid fragment handle: Skipping TPC digit decoding
+%MSG
+Begin processing the 11th record. run: 19406 subRun: 1 event: 73 at 23-Jan-2026 14:45:56 CST
+%MSG-i DetPedestalRetrievalAlg:  ProcessEvent 23-Jan-2026 14:45:56 CST  run: 19406 subRun: 1 event: 73
+DetPedestalRetrievalAlg::UpdateTimeStamp called.
+%MSG
+%MSG-w SBNDTPCDecoder_module:  SBNDTPCDecoder:daq@BeginModule  23-Jan-2026 14:45:56 CST run: 19406 subRun: 1 event: 73
+ Invalid fragment handle: Skipping TPC digit decoding
+%MSG
+Begin processing the 12th record. run: 19406 subRun: 1 event: 79 at 23-Jan-2026 14:45:56 CST
+%MSG-i DetPedestalRetrievalAlg:  ProcessEvent 23-Jan-2026 14:45:56 CST  run: 19406 subRun: 1 event: 79
+DetPedestalRetrievalAlg::UpdateTimeStamp called.
+%MSG
+%MSG-w SBNDTPCDecoder_module:  SBNDTPCDecoder:daq@BeginModule  23-Jan-2026 14:45:56 CST run: 19406 subRun: 1 event: 79
+ Invalid fragment handle: Skipping TPC digit decoding
+%MSG
+Begin processing the 13th record. run: 19406 subRun: 1 event: 85 at 23-Jan-2026 14:45:56 CST
+%MSG-i DetPedestalRetrievalAlg:  ProcessEvent 23-Jan-2026 14:45:56 CST  run: 19406 subRun: 1 event: 85
+DetPedestalRetrievalAlg::UpdateTimeStamp called.
+%MSG
+%MSG-w SBNDTPCDecoder_module:  SBNDTPCDecoder:daq@BeginModule  23-Jan-2026 14:45:56 CST run: 19406 subRun: 1 event: 85
+ Invalid fragment handle: Skipping TPC digit decoding
+%MSG
+Begin processing the 14th record. run: 19406 subRun: 1 event: 91 at 23-Jan-2026 14:45:56 CST
+%MSG-i DetPedestalRetrievalAlg:  ProcessEvent 23-Jan-2026 14:45:56 CST  run: 19406 subRun: 1 event: 91
+DetPedestalRetrievalAlg::UpdateTimeStamp called.
+%MSG
+%MSG-w SBNDTPCDecoder_module:  SBNDTPCDecoder:daq@BeginModule  23-Jan-2026 14:45:56 CST run: 19406 subRun: 1 event: 91
+ Invalid fragment handle: Skipping TPC digit decoding
+%MSG
+Begin processing the 15th record. run: 19406 subRun: 1 event: 97 at 23-Jan-2026 14:45:56 CST
+%MSG-i DetPedestalRetrievalAlg:  ProcessEvent 23-Jan-2026 14:45:56 CST  run: 19406 subRun: 1 event: 97
+DetPedestalRetrievalAlg::UpdateTimeStamp called.
+%MSG
+%MSG-w SBNDTPCDecoder_module:  SBNDTPCDecoder:daq@BeginModule  23-Jan-2026 14:45:56 CST run: 19406 subRun: 1 event: 97
+ Invalid fragment handle: Skipping TPC digit decoding
+%MSG
+Begin processing the 16th record. run: 19406 subRun: 1 event: 103 at 23-Jan-2026 14:45:56 CST
+%MSG-i DetPedestalRetrievalAlg:  ProcessEvent 23-Jan-2026 14:45:56 CST  run: 19406 subRun: 1 event: 103
+DetPedestalRetrievalAlg::UpdateTimeStamp called.
+%MSG
+%MSG-w SBNDTPCDecoder_module:  SBNDTPCDecoder:daq@BeginModule  23-Jan-2026 14:45:56 CST run: 19406 subRun: 1 event: 103
+ Invalid fragment handle: Skipping TPC digit decoding
+%MSG
+Begin processing the 17th record. run: 19406 subRun: 1 event: 109 at 23-Jan-2026 14:45:56 CST
+%MSG-i DetPedestalRetrievalAlg:  ProcessEvent 23-Jan-2026 14:45:56 CST  run: 19406 subRun: 1 event: 109
+DetPedestalRetrievalAlg::UpdateTimeStamp called.
+%MSG
+%MSG-w SBNDTPCDecoder_module:  SBNDTPCDecoder:daq@BeginModule  23-Jan-2026 14:45:56 CST run: 19406 subRun: 1 event: 109
+ Invalid fragment handle: Skipping TPC digit decoding
+%MSG
+Begin processing the 18th record. run: 19406 subRun: 1 event: 115 at 23-Jan-2026 14:45:56 CST
+%MSG-i DetPedestalRetrievalAlg:  ProcessEvent 23-Jan-2026 14:45:56 CST  run: 19406 subRun: 1 event: 115
+DetPedestalRetrievalAlg::UpdateTimeStamp called.
+%MSG
+%MSG-w SBNDTPCDecoder_module:  SBNDTPCDecoder:daq@BeginModule  23-Jan-2026 14:45:56 CST run: 19406 subRun: 1 event: 115
+ Invalid fragment handle: Skipping TPC digit decoding
+%MSG
+Begin processing the 19th record. run: 19406 subRun: 1 event: 121 at 23-Jan-2026 14:45:56 CST
+%MSG-i DetPedestalRetrievalAlg:  ProcessEvent 23-Jan-2026 14:45:56 CST  run: 19406 subRun: 1 event: 121
+DetPedestalRetrievalAlg::UpdateTimeStamp called.
+%MSG
+%MSG-w SBNDTPCDecoder_module:  SBNDTPCDecoder:daq@BeginModule  23-Jan-2026 14:45:56 CST run: 19406 subRun: 1 event: 121
+ Invalid fragment handle: Skipping TPC digit decoding
+%MSG
+Begin processing the 20th record. run: 19406 subRun: 1 event: 127 at 23-Jan-2026 14:45:56 CST
+%MSG-i DetPedestalRetrievalAlg:  ProcessEvent 23-Jan-2026 14:45:56 CST  run: 19406 subRun: 1 event: 127
+DetPedestalRetrievalAlg::UpdateTimeStamp called.
+%MSG
+%MSG-w SBNDTPCDecoder_module:  SBNDTPCDecoder:daq@BeginModule  23-Jan-2026 14:45:56 CST run: 19406 subRun: 1 event: 127
+ Invalid fragment handle: Skipping TPC digit decoding
+%MSG
+23-Jan-2026 14:45:58 CST  Closed output file "data_EventBuilder6_art1_run19406_1_20250924T161002_decoded-filtered.root"
+23-Jan-2026 14:45:58 CST  Closed output file "data_EventBuilder6_art1_run19406_1_20250924T161002_decoded-choppy.root"
+23-Jan-2026 14:45:58 CST  Closed input file "/pnfs/sbnd/archive/sbn/sbn_nd/data/raw/unknown/v1_10_08/sbnd_daq_v1_10_08/daq/00/01/94/06/32/fa/data_EventBuilder6_art1_run19406_1_20250924T161002.root"
+
+====================================================================================================================================
+TimeTracker printout (sec)                            Min           Avg           Max         Median          RMS         nEvts   
+====================================================================================================================================
+Full event                                         0.030615      0.0441855     0.111592      0.0405624     0.0169472       20     
+------------------------------------------------------------------------------------------------------------------------------------
+source:RootInput(read)                            0.000110531   0.00118701     0.0187171    0.000181186   0.00402624       20     
+savechoppy:daq:SBNDTPCDecoder                     8.0203e-05    0.000206144   0.00118935    0.000116582   0.000245439      20     
+savechoppy:ntbdecoder:NTBDecoder                  2.5329e-05    4.85728e-05   0.00022523    3.09745e-05   4.5903e-05       20     
+savechoppy:crtdecoder:CRTDecoder                  1.2303e-05    2.45092e-05   0.000136761   1.67165e-05   2.67541e-05      20     
+savechoppy:ptbdecoder:SBNDPTBDecoder              5.6848e-05    0.000315525   0.00446558    8.9912e-05    0.000952771      20     
+savechoppy:tdcdecoder:SPECTDCDecoder              3.7282e-05    0.000183066   0.00241358    5.9609e-05    0.000512464      20     
+savechoppy:pmtdecoder:SBNDPMTDecoder              0.00587147    0.00942739     0.038322     0.00770169     0.0067842       20     
+savechoppy:xarapucadecoder:SBNDXARAPUCADecoder    0.00354904    0.00458542    0.00602163    0.00448128    0.00067229       20     
+savechoppy:filterchoppy:FilterChoppy              2.5719e-05    5.9708e-05    0.000142673   3.9831e-05    3.92459e-05      20     
+[art]:TriggerResults:TriggerResultInserter         8.025e-06    1.52101e-05   6.7379e-05    1.0144e-05    1.35303e-05      20     
+end_path:out1:RootOutput                           4.709e-06    2.13708e-05   0.000174153   6.4175e-06    3.87551e-05      20     
+end_path:out2:RootOutput                           2.033e-06    6.0028e-06    5.4233e-05     2.81e-06     1.11828e-05      20     
+end_path:out1:RootOutput(write)                    0.0192857     0.0275151     0.0448784     0.0258817    0.00669307       20     
+end_path:out2:RootOutput(write)                    3.446e-06    5.2364e-06    1.9447e-05    4.0325e-06    3.4569e-06       20     
+====================================================================================================================================
+
+====================================================================================================
+MemoryTracker summary (base-10 MB units used)
+
+  Peak virtual memory usage (VmPeak)  : 1092.31 MB
+  Peak resident set size usage (VmHWM): 554.848 MB
+  Details saved in: 'memory.db'
+====================================================================================================
+
+TrigReport ---------- Event summary -------------
+TrigReport Events total = 20 passed = 20 failed = 0
+
+TrigReport ---------- Modules in End-path ----------
+TrigReport        Run    Success      Error Name
+TrigReport         20         20          0 out1
+TrigReport          0          0          0 out2
+
+TimeReport ---------- Time summary [sec] -------
+TimeReport CPU = 1.523623 Real = 6.442921
+
+MemReport  ---------- Memory summary [base-10 MB] ------
+MemReport  VmPeak = 1092.31 VmHWM = 554.848
+
