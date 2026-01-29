@@ -99,6 +99,8 @@ The main analysis script `PMTWaveformAnalyzer.C` performs:
 - Gaussian fitting of delay distributions
 - Geometric mapping of timing statistics (East/West detector separation)
 - Radial delay analysis from detector origin
+- Signal quality assessment using amplitude and integrated charge
+- Signal counting and spatial distribution mapping
 
 Execute the analysis in a ROOT session (you may just type `root` to enter the terminal):
 
@@ -109,13 +111,17 @@ t.Loop();
 ```
 
 **Outputs:**
-- ROOT file: `output_waveforms_combined_LED1.root`
+- ROOT file: `output_waveforms_combined.root`
 - Per-channel absolute and relative time histograms
 - Average event time histogram
 - 2D heatmaps: mean/RMS PMT delays (East/West)
-- 2D heatmaps: Gaussian fit parameters
+- 2D heatmaps: Gaussian fit parameters (mean/sigma)
+- 2D heatmaps: average signal amplitude (East/West)
+- 2D heatmaps: average total photoelectron charge (East/West)
+- 2D heatmaps: signal counts per PMT (East/West)
 - PMT delay vs. radius scatter plots (East/West)
 - Combined radius vs. delay plot
+- Individual channel timing plots
 - PNG plots saved to `Plots/` directory
 
-Summary statistics are printed to stdout during execution.
+Summary statistics and processing updates are printed to stdout during execution.
