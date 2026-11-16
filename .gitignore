@@ -1,0 +1,11 @@
+*.root
+*.log
+*.db
+Plots/
+Plots-*/
+Plots_ALL/unused_old/
+PMT_calib/
+tree_logs*/
+*_backup_*.C
+__pycache__/
+.ipynb_checkpoints/
